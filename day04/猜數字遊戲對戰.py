@@ -10,8 +10,7 @@ while count >0:
     if guess <= min or guess >= max:
         print('數字範圍錯誤')
         continue
-    # 將count 減去一次
-    count = count - 1
+
     # 判定結果
     if guess > ans:
         max = guess
@@ -30,3 +29,6 @@ elif guess < ans:
 else:
     print('電腦答對了')
     break
+
+ # 將count 減去一次
+    count = count - 1
